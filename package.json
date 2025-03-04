@@ -1,0 +1,18 @@
+{
+  "name": "inventory-management",
+  "version": "1.0.0",
+  "description": "Sistema de gestión de inventarios usando arquitectura MVC",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.0.0"
+  }
+}
